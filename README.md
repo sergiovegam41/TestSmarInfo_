@@ -22,7 +22,7 @@ cd TestSmarInfo_
 
 2. Configura la conexión con la base de datos.
 
-Renombra el archivo `.env.example` a `.env` y abrelo en tu editor de texto favorito. A continuación, configura los valores de conexión a la base de datos según tu entorno:
+Renombra el archivo `.env.example` de `lib\.env.example` a `.env` y abrelo en tu editor de texto favorito. A continuación, configura los valores de conexión a la base de datos según tu entorno:
 
 ```env
 DATABASE_HOST=localhost

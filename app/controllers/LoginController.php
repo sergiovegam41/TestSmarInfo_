@@ -38,7 +38,7 @@ if(  $_REQUEST["action"] == 'login' ){
     foreach ($_SESSION["users"] as $item){
         
         if($item->email == $_REQUEST["email"] && $item->password ==  $_REQUEST["password"]){
-
+            
             header('Location: /resourses/home/');
             $_SESSION['userAuth.name'] = $item->name;
             $_SESSION['userAuth.last_name'] = $item->last_name;

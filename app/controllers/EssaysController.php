@@ -44,7 +44,7 @@ class EssaysController {
 
             $_SESSION['last_message'] = "El Requisito se a guardado correctamente.";
 
-            header('Location: /resourses/cruds/Essays/');
+            header('Location: /resourses/cruds/essays/');
 
             return true;      
 
@@ -52,7 +52,7 @@ class EssaysController {
 
             $_SESSION['last_message'] = "Ups! Algo salio mal. Error: ".$th;
 
-            header('Location: /resourses/cruds/Essays/');
+            header('Location: /resourses/cruds/essays/');
 
             return false;     
 
@@ -78,7 +78,7 @@ class EssaysController {
 
             $_SESSION['last_message'] = "El Departamento se a Actualizado correctamente.";
 
-            header('Location: /resourses/cruds/Essays/');
+            header('Location: /resourses/cruds/essays/');
 
             return true;      
 
@@ -86,7 +86,7 @@ class EssaysController {
 
             $_SESSION['last_message'] = "Ups! Algo salio mal. Error: ".$th;
 
-            header('Location: /resourses/cruds/Essays/');
+            header('Location: /resourses/cruds/essays/');
 
             return false;     
 
@@ -109,7 +109,7 @@ class EssaysController {
 
             $_SESSION['last_message'] = "Ups! Algo salio mal. Error: ".$th;
 
-            header('Location: /resourses/cruds/Essays/');
+            header('Location: /resourses/cruds/essays/');
 
             return false;     
 
@@ -127,13 +127,13 @@ class EssaysController {
 
             $_SESSION['last_message'] = "El Departamento se elimino correctamente.";
 
-            header('Location: /resourses/cruds/Essays/');
+            header('Location: /resourses/cruds/essays/');
 
         } catch (\Throwable $th) {
 
             $_SESSION['last_message'] = "Ups! Algo salio mal. Error: ".$th;
 
-            header('Location: /resourses/cruds/Essays/');
+            header('Location: /resourses/cruds/essays/');
 
             return false;     
 
