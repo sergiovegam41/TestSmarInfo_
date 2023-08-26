@@ -1,6 +1,6 @@
 # Proyecto Smart Info
 
-Este es el repositorio de la pruba Smart Info.
+Este es el repositorio de la prueba de Smart Info.
 
 ## Requisitos previos
 
